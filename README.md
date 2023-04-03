@@ -5,12 +5,12 @@ This is a basic application that performs CRUD (Create, Update and Delete) opera
 - Download or clonet this github repository.
 - Make sure to turn on the connection in MongoDB Compass.
 - Do the following to install all the dependencies.
-    - Run a command ### 'npm install'.
+    - Run a command 'npm install'.
     - Move to the backend folder.
     - Run the same command again.
 - Split the terminal.
-- Move to the backend folder and run ### 'npx nodemon' on one terminal.
-- Run ### 'npm run start' on other terminal.
+- Move to the backend folder and run 'npx nodemon' on one terminal.
+- Run 'npm run start' on other terminal.
 
 ## Features and Disclaimer
 - This application create a new student.
