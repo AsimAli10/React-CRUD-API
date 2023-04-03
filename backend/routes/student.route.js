@@ -4,11 +4,14 @@ let mongoose = require('mongoose'),
 // Student Model
 let studentSchema = require('../Models/Student');
 // CREATE Student
-router.route('/create-student').post(async (req, res, next) => {
-  const data = await studentSchema.create(req.body);
-  if (!data) return res.status(404).send('No data found.');
-  res.json(data);
-});
+router.route('/create-student').post((req, res, next) => {
+  const data = studentSchema.create(req.body)
+    .then(data => {
+      res.json(data)
+    }
+    ).catch(next);
+    
+})
 // READ Students
 router.route('/').get(async (req, res) => {
   const data = await studentSchema.find();

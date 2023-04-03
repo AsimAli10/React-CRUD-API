@@ -28,7 +28,7 @@ const server = app.listen(port, () => {
 })
 // 404 Error
 app.use((req, res, next) => {
-  res.status(404).send('We think you are lost!')
+  res.status(404).send('We think you are lost!');
 });
 app.use(function (err, req, res, next) {
   console.error(err.message);
