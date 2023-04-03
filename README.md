@@ -18,3 +18,11 @@ This is a basic application that performs CRUD (Create, Update and Delete) opera
 - You can check the list of all the students.
 - You can delete any student.
 - This is a basic application and you can get tutorials related to such applications.
+
+## REST API
+Following will be your APIs routes created with Express.js, MongoDB and Node.js.
+- GET	http://localhost:4000/students
+- POST	/students/create-student
+- GET	/students/edit-student/id
+- PUT	/students/update-student/id
+- DELETE	/students/delete-student/id
