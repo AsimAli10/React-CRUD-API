@@ -10,7 +10,7 @@ This is a basic application that performs CRUD (Create, Update and Delete) opera
     - Run the same command again.
 - Split the terminal.
 - Move to the backend folder and run 'npx nodemon' on one terminal.
-- Run 'npm run start' on other terminal.
+- Run 'npm run start' on other terminal {it should open the browser directly or type 'localhost:5000' on browser.
 
 ## Features and Disclaimer
 - This application create a new student.
